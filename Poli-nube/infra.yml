@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Mi primera plantilla de infraestructura como codigo'
+
+Resources:
+
+    BucketS3:
+      Type: 'AWS::S3::Bucket'
+      Properties:
+        BucketName: bucket-sara
+
